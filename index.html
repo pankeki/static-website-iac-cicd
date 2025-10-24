@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sveiks — Mana Portfolio Vietne</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Sveiks! 👋</h1>
+    <p>Es esmu <strong>[Tavs Vārds]</strong> — Junior AWS Infrastructure Engineer kandidāts.</p>
+    <p>Šī ir demonstrācijas statiska tīmekļa vietne, izvietota uz AWS S3 ar CloudFront, pilnībā automatizēta ar Terraform un GitHub Actions.</p>
+    <a class="btn" href="#projects">Skatīt projektus</a>
+  </header>
+
+  <main id="projects" class="content">
+    <section>
+      <h2>Par projektu</h2>
+      <p>Šis repo demonstrē: infrastruktūru kā kodu (Terraform), CI/CD izvietošanu (GitHub Actions), CloudFront keša invalidāciju un drošas piekļuves praksi.</p>
+    </section>
+
+    <section>
+      <h2>Kas atrodas repozitorijā</h2>
+      <ul>
+        <li><code>/terraform</code> — Terraform konfigurācija S3 spainim un CloudFront izplatīšanai</li>
+        <li><code>/.github/workflows</code> — GitHub Actions darba plūsmas: infrastruktūras un vietnes izvietošanai</li>
+        <li><code>index.html</code> — šīs lapas HTML</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Vēlies, lai es palīdzētu uzstādīt šo projektu tavā AWS kontā? Nokrīti README un izpildi norādījumus vai lūdz man izveidot komandu skriptus.</p>
+    </footer>
+  </main>
+</body>
+</html>
