@@ -71,3 +71,7 @@ Repo satur `.github/workflows/deploy.yml` — kad tu izveidos GitHub repozitorij
 ## Drošība un optimizācija
 - Pēc testa vari iestatīt S3 objektu dzīves ciklu (lētākai glabāšanai).
 - Ja vēlēsies pielāgot domēnu un SSL certifikātu, pievieno Route53 un ACM konfigurāciju Terraform.
+
+---
+## Link
+- https://d208htktay4o0u.cloudfront.net/
